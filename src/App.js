@@ -14,7 +14,7 @@ export default function App() {
         data-bs-theme="dark"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="https://github.com/JessicaBoos#">
             <img
               src={signature}
               alt="Logo"
@@ -82,7 +82,11 @@ export default function App() {
             </div>
             <div className="col-4">
               <span className="App-header-img">
-                <img src={portrait} className="img-fluid  align-items-center" />
+                <img
+                  src={portrait}
+                  alt="Portrait"
+                  className="img-fluid  align-items-center"
+                />
               </span>
             </div>
           </div>
